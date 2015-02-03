@@ -104,6 +104,14 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tes-NG-4if"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fem-l5-Lq6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="184" width="207" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +121,7 @@
                                 <exclude reference="VgE-Vh-qwz"/>
                                 <exclude reference="8YL-hl-lZZ"/>
                                 <exclude reference="jIy-cD-MGV"/>
+                                <exclude reference="fem-l5-Lq6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +131,7 @@
                                 <include reference="VgE-Vh-qwz"/>
                                 <include reference="8YL-hl-lZZ"/>
                                 <include reference="jIy-cD-MGV"/>
+                                <include reference="fem-l5-Lq6"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="VgE-Vh-qwz" id="NfE-80-bBB"/>
                         <outlet property="mailButton" destination="jIy-cD-MGV" id="dvM-a7-TyH"/>
                         <outlet property="messageLabel" destination="Pka-Cr-Wz3" id="j7C-zt-iO7"/>
+                        <outlet property="nameLabel" destination="fem-l5-Lq6" id="QaX-um-Zcc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
